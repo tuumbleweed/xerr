@@ -3,8 +3,8 @@ package main
 import (
 	"errors"
 
-	tl "github.com/meeeraaakiii/tintlog/logger"
-	xerr "github.com/meeeraaakiii/xerr"
+	tl "github.com/tuumbleweed/tintlog/logger"
+	xerr "github.com/tuumbleweed/xerr"
 )
 
 func main() {

@@ -1,9 +1,9 @@
-module github.com/meeeraaakiii/xerr
+module github.com/tuumbleweed/xerr
 
 go 1.25.3
 
 require (
-	github.com/meeeraaakiii/tintlog v0.0.5
+	github.com/tuumbleweed/tintlog v0.0.9
 	gorm.io/gorm v1.31.1
 )
 
