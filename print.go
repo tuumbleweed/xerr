@@ -6,8 +6,8 @@ import (
 	"os"
 	"runtime/debug"
 
-	tl "github.com/meeeraaakiii/tintlog/logger"
-	"github.com/meeeraaakiii/tintlog/palette"
+	tl "github.com/tuumbleweed/tintlog/logger"
+	"github.com/tuumbleweed/tintlog/palette"
 )
 
 // error (red), warning (yellow) or skip (purple)

@@ -2,7 +2,7 @@
 // allows us to wrap NewError calls in one line
 package xerr
 
-import tl "github.com/meeeraaakiii/tintlog/logger"
+import tl "github.com/tuumbleweed/tintlog/logger"
 
 /*
 If err is nil - do nothing.
