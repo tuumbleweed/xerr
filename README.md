@@ -1,0 +1,10 @@
+# xerr
+
+`xerr` is a small, portable error wrapper for Go. It records a message, cause, call-site (`file:line`), and a safely stringified context, and travels cleanly through logs, JSON, and databases.
+
+## Features
+- Structured fields: `Msg`, `Where`, `Context`, `Err` (+ `ErrStr`).
+- Smart context formatting (string/bytes/JSON/Stringer) with truncation.
+- JSON/GORM aware: syncs `Err` ↔ `ErrStr` (custom marshal, `BeforeSave`/`AfterFind`).
+- Colorized printing helpers (`error` / `warning` / `skip`) powered by `tintlog`.
+- Large contexts are capped to keep outputs sane.
