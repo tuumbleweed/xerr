@@ -1,0 +1,37 @@
+schema_version: 1
+id: xerr
+name: xerr
+original_name: xerr
+short_description: A Go diagnostic wrapper that attaches messages, source locations, and formatted context to errors, with tintlog printing, JSON serialization, and GORM persistence hooks.
+repository:
+  local_name: xerr
+  url: https://github.com/tuumbleweed/xerr
+  relationship: standalone
+  parent_project: null
+project:
+  type: unknown
+  status: completed
+  categories: [tooling, backend]
+  start_date: null
+  end_date: null
+  date_precision: unknown
+  git_first_activity: "2025-11-10"
+  git_last_activity: "2026-01-14"
+technologies:
+  languages: [Go]
+  frameworks: [GORM]
+  databases: []
+  messaging: []
+  infrastructure: []
+  tools: [Go modules, tintlog]
+links:
+  repository: https://github.com/tuumbleweed/xerr
+  demo: null
+publication:
+  visibility: review_required
+  featured: false
+  show_criticism: false
+  review_status: unverified
+analysis:
+  analyzed_commit: b2e4118f6564269b5de68c9c721d4c936b48d88a
+  analyzed_at: "2026-10-15"
